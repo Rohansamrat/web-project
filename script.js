@@ -32,23 +32,23 @@ async function checkweather(city){
 
      switch(weather_data.weather[0].main){
         case 'Clouds':
-            weatherimg.src="/images/icons8-cloud-94.png";
+            weatherimg.src="./images/icons8-cloud-94.png";
             break;
             
         case 'Clear':
-            weatherimg.src="/images/icons8-clear-sky-64.png";    
+            weatherimg.src="./images/icons8-clear-sky-64.png";    
             break;
 
         case 'Rain':
-            weatherimg.src="/images/icons8-rain-48.png";    
+            weatherimg.src="./images/icons8-rain-48.png";    
             break;
 
         case 'Mist':
-            weatherimg.src="/images/icons8-mist-100.png";    
+            weatherimg.src="./images/icons8-mist-100.png";    
             break;
 
         case 'Snow':
-            weatherimg.src="/images/icons8-snow-96.png";        
+            weatherimg.src="./images/icons8-snow-96.png";        
             break;
      }
 }
